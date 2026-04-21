@@ -1,0 +1,15 @@
+name = "formal-conformal"
+version = "0.1.0"
+defaultTargets = ["formal-conformal"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "master"
+
+[[lean_lib]]
+name = "FormalConformal"
+
+[[lean_exe]]
+name = "formal-conformal"
+root = "Main"
